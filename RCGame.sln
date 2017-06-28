@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCGame", "Assembly-CSharp-firstpass.csproj", "{F188B9CB-9137-A743-FE44-0766CF7E6A4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCGame", "Assembly-CSharp.csproj", "{83DF47AD-5E5C-D370-CF1B-A10E85007AAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCGame", "Assembly-CSharp-Editor-firstpass.csproj", "{C5A070E8-39CC-BBB6-3C27-82A2C644D1FA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F188B9CB-9137-A743-FE44-0766CF7E6A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F188B9CB-9137-A743-FE44-0766CF7E6A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F188B9CB-9137-A743-FE44-0766CF7E6A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F188B9CB-9137-A743-FE44-0766CF7E6A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DF47AD-5E5C-D370-CF1B-A10E85007AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DF47AD-5E5C-D370-CF1B-A10E85007AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DF47AD-5E5C-D370-CF1B-A10E85007AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DF47AD-5E5C-D370-CF1B-A10E85007AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5A070E8-39CC-BBB6-3C27-82A2C644D1FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5A070E8-39CC-BBB6-3C27-82A2C644D1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5A070E8-39CC-BBB6-3C27-82A2C644D1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5A070E8-39CC-BBB6-3C27-82A2C644D1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
