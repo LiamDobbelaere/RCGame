@@ -52,6 +52,7 @@
      <Compile Include="Assets\Game Assets\Scripts\RCWCSound.cs" />
      <Compile Include="Assets\Game Assets\Scripts\SmoothFollow2.cs" />
      <None Include="Assets\Game Assets\Shaders\Test.shader" />
+     <None Include="Assets\Game Assets\Shaders\StandardVertex.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
      <None Include="Assets\Standard Assets\Cameras\CameraGuidelines.txt" />
  <Reference Include="UnityEngine.UI">
