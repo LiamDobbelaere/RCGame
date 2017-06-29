@@ -23,6 +23,10 @@ public class RCWCDrive : MonoBehaviour {
         collider.GetWorldPose(out position, out rotation);
 
         visualWheel.transform.position = position;
+
+        if (collider.gameObject.name.Equals("WheelFR") || collider.gameObject.name.Equals("WheelRR"))
+            rotation.eulerAngles = new Vector3(rotation.eulerAngles.x, rotation.eulerAngles.y + 180f, rotation.eulerAngles.z);
+
         visualWheel.transform.rotation = rotation;
     }
 

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCGame", "Assembly-CSharp.c
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCGame", "Assembly-CSharp-Editor-firstpass.csproj", "{C5A070E8-39CC-BBB6-3C27-82A2C644D1FA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RCGame", "Assembly-CSharp-Editor.csproj", "{B4512776-BB55-60AC-8F2C-CEC4E923513C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{C5A070E8-39CC-BBB6-3C27-82A2C644D1FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5A070E8-39CC-BBB6-3C27-82A2C644D1FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5A070E8-39CC-BBB6-3C27-82A2C644D1FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4512776-BB55-60AC-8F2C-CEC4E923513C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4512776-BB55-60AC-8F2C-CEC4E923513C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4512776-BB55-60AC-8F2C-CEC4E923513C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4512776-BB55-60AC-8F2C-CEC4E923513C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
