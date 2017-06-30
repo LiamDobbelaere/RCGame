@@ -11,6 +11,7 @@ public class RCCarAI : MonoBehaviour {
 
     public float vehicleCenterOfMass = 0.0f;
     public float steeringSharpness = 12.0f;
+    public float requiredMagnitude = 1.0f;
 
     // Here's all the variables for the AI, the waypoints are determined in the "GetWaypoints" function.
     // the waypoint container is used to search for all the waypoints in the scene, and the current
@@ -110,7 +111,7 @@ public class RCCarAI : MonoBehaviour {
         // this just checks if the car's position is near enough to a waypoint to count as passing it, if it is, then change the target waypoint to the
         // next in the list.
         Debug.LogWarning(RelativeWaypointPosition.magnitude);
-        if (RelativeWaypointPosition.magnitude < 1)
+        if (RelativeWaypointPosition.magnitude < requiredMagnitude)
         {
             currentWaypoint++;
 
