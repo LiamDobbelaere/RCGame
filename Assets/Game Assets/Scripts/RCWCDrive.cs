@@ -7,6 +7,9 @@ public class RCWCDrive : MonoBehaviour {
     public float maxMotorTorque;
     public float maxSteeringAngle;
 
+    public string inputHaxis = "Horizontal";
+    public string inputVaxis = "Vertical";
+
     // finds the corresponding visual wheel
     // correctly applies the transform
     public void ApplyLocalPositionToVisuals(WheelCollider collider)
@@ -32,8 +35,8 @@ public class RCWCDrive : MonoBehaviour {
 
     public void FixedUpdate()
     {
-        float motor = maxMotorTorque * Input.GetAxis("Vertical");
-        float steering = maxSteeringAngle * Input.GetAxis("Horizontal");
+        float motor = maxMotorTorque * Input.GetAxis(inputVaxis);
+        float steering = maxSteeringAngle * Input.GetAxis(inputHaxis);
 
         foreach (AxleInfo axleInfo in axleInfos)
         {
